@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<phpunit bootstrap="magento_autoload.php">
+    <testsuite name="Example Feature Unit Tests">
+        <directory>testsuite</directory>
+    </testsuite>
+</phpunit>

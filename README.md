@@ -5,6 +5,8 @@ Magento v1 application environment
 
 1. [Installation](#installation)
 1. [Example usage](#example-usage)
+1. [Customizations](#customizations)
+1. [Roadmap (TODO)](#roadmap-todo)
 
 
 ## Installation
@@ -13,7 +15,7 @@ Magento v1 application environment
 
 * [Composer](https://getcomposer.org/)
 * Environment meets [Magento system requirements](https://docs.magento.com/m1/ce/user_guide/magento/system-requirements.html)
-* Tested using PHP7.3 and MYSQL5.6
+
 
 #### Setup instructions
 
@@ -21,6 +23,12 @@ Magento v1 application environment
 
 ```
 composer install
+```
+
+* Run the tests
+
+```
+composer test
 ```
 
 
@@ -35,13 +43,19 @@ php -S magento.test:8000
 
 * View [magento.test:8000](http://magento.test:8000/) in your browser
 
-* Install Magento or seed the database as usual
+* Run Magento installer or seed the database as usual
 
-* Run the tests
+
+## Customizations
+
+* Example HTML is displayed on the homepage
+
+
+## Roadmap (TODO)
 
 ```
-TODO
-* Test application
-* Install extension
-* Unit-test extensions
+* Add CICD badges
 ```
+
+- - -
+Tested using PHP7.2 and MYSQL5.6
