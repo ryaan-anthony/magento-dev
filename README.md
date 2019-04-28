@@ -1,6 +1,11 @@
 ## magento-dev
 Magento v1 application environment
 
+The purpose of this project is to demonstrate ways to build/customize/test a 
+Magento v1 webstore with various 3rd party extensions and PHP modules. The goal 
+is to decouple features and customizations from base code and 3rd party extensions.
+  
+
 ## Contents
 
 1. [Installation](#installation)
@@ -48,7 +53,11 @@ php -S magento.test:8000
 
 ## Customizations
 
-* Example HTML is displayed on the homepage
+* "Example Feature" Magento extension is installed 
+  - Leverages "Content Builder" PHP module to provide model data
+  - Ordered list of HTML blocks are displayed on the homepage
+![Inspect DOM](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/inspect_dom.png "Inspect DOM")
+![Screenshot](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/screenshot.png "Screenshot")
 
 
 ## Roadmap (TODO)
