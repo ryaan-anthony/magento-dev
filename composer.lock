@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93a61916d2013bc5dbdef234b5f25797",
+    "content-hash": "ad7c12f36d22443c5c1e2a504b224935",
     "packages": [
         {
             "name": "aydin-hassan/magento-core-composer-installer",
@@ -374,45 +374,56 @@
             "time": "2018-11-20T15:27:04+00:00"
         },
         {
-            "name": "ryaan-anthony/magento-content-builder",
-            "version": "v1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ryaan-anthony/magento-content-builder.git",
-                "reference": "fad3201f39aea9fa124072def85c0a2ed1eea735"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ryaan-anthony/magento-content-builder/zipball/fad3201f39aea9fa124072def85c0a2ed1eea735",
-                "reference": "fad3201f39aea9fa124072def85c0a2ed1eea735",
-                "shasum": ""
-            },
-            "type": "magento-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Simple content builder for Magento v1",
-            "time": "2019-04-28T05:37:33+00:00"
-        },
-        {
             "name": "ryaan-anthony/magento-example-feature",
-            "version": "v1.0.3",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ryaan-anthony/magento-example-feature.git",
-                "reference": "23d8567a1e2b5f850f42cc06911d7dac69eaa69c"
+                "reference": "7394bb6bd49b428b6eb3e69abded4889b31e79a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ryaan-anthony/magento-example-feature/zipball/23d8567a1e2b5f850f42cc06911d7dac69eaa69c",
-                "reference": "23d8567a1e2b5f850f42cc06911d7dac69eaa69c",
+                "url": "https://api.github.com/repos/ryaan-anthony/magento-example-feature/zipball/7394bb6bd49b428b6eb3e69abded4889b31e79a9",
+                "reference": "7394bb6bd49b428b6eb3e69abded4889b31e79a9",
                 "shasum": ""
             },
             "require": {
-                "ryaan-anthony/magento-content-builder": "^1"
+                "ryaan-anthony/simple-content-builder": "^1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
             },
             "type": "magento-module",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Example customization for Magento v1 webstore",
-            "time": "2019-04-28T14:48:38+00:00"
+            "time": "2019-04-28T19:44:25+00:00"
+        },
+        {
+            "name": "ryaan-anthony/simple-content-builder",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryaan-anthony/simple-content-builder.git",
+                "reference": "32560a0e82e9a7947d26870ddcd2a9e246e92f85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryaan-anthony/simple-content-builder/zipball/32560a0e82e9a7947d26870ddcd2a9e246e92f85",
+                "reference": "32560a0e82e9a7947d26870ddcd2a9e246e92f85",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RyaanAnthony\\ContentBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Simple content builder",
+            "time": "2019-04-28T19:36:19+00:00"
         },
         {
             "name": "symfony/console",
