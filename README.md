@@ -53,7 +53,7 @@ php -S magento.test:8000
 
 ## Customizations
 
-* "Example Feature" Magento extension is installed 
+* ["Example Feature" Magento extension](https://github.com/ryaan-anthony/magento-example-feature) is installed 
   - Leverages "Content Builder" PHP module to provide model data
   - Ordered list of HTML blocks are displayed on the homepage
   
