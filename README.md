@@ -1,6 +1,8 @@
 ## magento-dev
 Magento v1 application environment
 
+[![Build Status](https://travis-ci.org/ryaan-anthony/magento-dev.svg?branch=master)](https://travis-ci.org/ryaan-anthony/magento-dev)
+
 The purpose of this project is to demonstrate ways to build/customize/test a 
 Magento v1 webstore with various 3rd party extensions and PHP modules. The goal 
 is to decouple features and customizations from base code and 3rd party extensions.
