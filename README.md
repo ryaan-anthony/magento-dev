@@ -54,7 +54,7 @@ php -S magento.test:8000
 ## Customizations
 
 * ["Example Feature" Magento extension](https://github.com/ryaan-anthony/magento-example-feature) is installed 
-  - Leverages ["Content Builder" PHP module](https://github.com/ryaan-anthony/magento-content-builder) to provide model data
+  - Leverages ["Content Builder" PHP module](https://github.com/ryaan-anthony/simple-content-builder) to provide model data
   - Ordered list of HTML blocks are displayed on the homepage
   
 ![Screenshot](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/screenshot.png "Screenshot")
