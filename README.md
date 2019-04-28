@@ -64,6 +64,7 @@ php -S magento.test:8000
 ## Roadmap (TODO)
 
 ```
+* Integration tests
 * Add CICD badges
 ```
 
