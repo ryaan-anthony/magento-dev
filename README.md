@@ -57,9 +57,8 @@ php -S magento.test:8000
   - Leverages "Content Builder" PHP module to provide model data
   - Ordered list of HTML blocks are displayed on the homepage
   
-![Inspect DOM](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/inspect_dom.png "Inspect DOM")
-
 ![Screenshot](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/screenshot.png "Screenshot")
+![Inspect DOM](https://github.com/ryaan-anthony/magento-dev/raw/master/docs/assets/example_feature/inspect_dom.png "Inspect DOM")
 
 
 ## Roadmap (TODO)
